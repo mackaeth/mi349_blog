@@ -10,6 +10,28 @@ body{
  background: #e3e3e3;
 }
 
+table{
+    background: #999;
+}
+
+section{
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+article {
+    background: #999;
+}
+
+header {
+    background: seashell;
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+}
+
+
 h1{
  font-size: 3em;
  margin: 0;
@@ -18,6 +40,40 @@ h1{
 p{
  line-height: 1.4em;
  width: 750px;
+}
+
+.img-container {
+    height: 10px;
+    width: 750px;
+    float: right;
+    margin-left: 10px;
+}
+
+.img-container2 {
+    height: 10px;
+    width: 0px;
+    float: right;
+    margin-left: 10px;
+}
+
+.caption {
+    height: 130px;
+    width: 600px;
+    float: right;
+    margin-left: 50px;
+}
+
+.caption2 {
+    height: 130px;
+    width: 600px;
+    float: right;
+    margin-left: 50px;
+}
+
+.sticky {
+ background: green;
+ position: sticky;
+ top: 0;
 }
 
 #blog {
