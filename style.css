@@ -20,13 +20,14 @@ section{
     margin: 20px;
 }
 
+
 article {
     background: #999;
 }
 
 header {
     background: seashell;
-    display: flex;
+    display: block;
     padding: 30px;
     margin: 20px;
 }
@@ -42,7 +43,7 @@ p{
  width: 750px;
 }
 
-.img-container {
+/*.img-container {
     height: 10px;
     width: 750px;
     float: right;
@@ -70,15 +71,30 @@ p{
     float: right;
     margin-left: 50px;
 }
-
+*/
 .sticky {
  background: green;
  position: sticky;
  top: 0;
 }
 
-#blog {
+.blog {
  border-top: 1px dotted #ccc;
+ display: flex;
+}
+
+.content {
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#a1 {
+    flex: 1;
+}
+
+#a2 {
+    flex: 1;
 }
 
 .blog-post {
@@ -87,4 +103,16 @@ p{
 
 article{
     border-bottom: 1px solid #000;
+}
+
+@media (max-width: 400px) {
+    .blog{
+        display: block;
+    }
+    .about{
+        display: block;
+    }
+    .contact{
+        display: block;
+    }
 }
